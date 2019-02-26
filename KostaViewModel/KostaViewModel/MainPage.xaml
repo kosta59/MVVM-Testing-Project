@@ -14,15 +14,15 @@
     <StackLayout>
 
 
-        <Label Text="{Binding LabelTxt}"></Label>
 
-        <Entry Placeholder="Enter Some Text" Text="{Binding FullnameTxt}"></Entry>
+        <Entry Placeholder="Fullname" Text="{Binding RegisterUserModel.FullName}"></Entry>
+       
+        <Entry Placeholder="Email Address" Text="{Binding RegisterUserModel.EmailAddress}"></Entry>
+       
+        <Entry Placeholder="Password" Text="{Binding RegisterUserModel.Password}"></Entry>
 
-        <Button Text="Click Me To Submit" Command="{Binding RegisterClicked}"></Button>
-        
-        
-        
-        
+        <Button Text="Register" Command="{Binding RegisterClicked}"></Button>
+
         
     </StackLayout>
 
